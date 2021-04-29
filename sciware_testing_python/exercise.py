@@ -37,10 +37,10 @@ def add_vectors(vector_1, vector_2):
 
     Parameters
     ----------
-    v1 : list
+    vector_1 : list
         List of ints or floats
 
-    v2 : list
+    vector_2 : list
         List of ints or floats
 
     Returns
@@ -55,6 +55,7 @@ def add_vectors(vector_1, vector_2):
 
     return add_vec
 
+
 def count_ones(input_list):
     count = 0
     for n in input_list:
@@ -63,5 +64,6 @@ def count_ones(input_list):
 
     return count
 
+
 # Make a new function which counts the number of twos in a list
-#def count_twos(input_list):
+# def count_twos(input_list):
